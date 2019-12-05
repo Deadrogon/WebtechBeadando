@@ -2,6 +2,10 @@ $(document).ready(function () {
     $("#content").load("content.html");
 });
 
+function loadCar() {
+    $("#content").load("addcar.html");
+}
+
 $(document).ready(function () {
     $.each($(".menuButton"), function (mbIndex, mbValue) {
         $(mbValue).click(function (event) {
@@ -19,14 +23,14 @@ $(document).ready(function () {
 function Show(click) {
     var text = document.getElementById(click);
     var x = document.getElementById("Description");
-    if (text.firstChild.data === "Click me!")
+    if (text.firstChild.data === "Click!")
     {
-        text.firstChild.data = "Hide";
+        text.firstChild.data = "Back!";
         x.style.display = "block";
     }
     else
     {
-        text.firstChild.data = "Click me!";
+        text.firstChild.data = "Click!";
         x.style.display = "none";
     }
 }

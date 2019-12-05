@@ -18,7 +18,7 @@ $(function (){
             url: 'addCar',
             data: $('form').serialize(),
             success: function () {
-                confirm("You have been added a new car!")
+                confirm("Great! You have been added a new car!")
             },
             error: function () {
                 window.alert("Something wrong!");

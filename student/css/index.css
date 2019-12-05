@@ -11,18 +11,21 @@ a:visited{
     text-decoration: none;
 }
 button{
-    background-color: dimgray;
-    color: white;
+    background-color: #697887;
+    color: brown;
     display: inline-block;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
-    font-size: 15px;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 #logo{
     padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 #everyContent{
@@ -55,12 +58,16 @@ button{
 }
 
 #content_outer{
-    background: lightgrey;
+    color: lightslategray;
+    border-style: solid;
+    background: darkslategray;
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
+    font-size: larger;
 }
 #content{
+    font-size: larger;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -68,8 +75,9 @@ button{
 #header{
     text-align: left;
     font-size: 45px;
-    color: dimgray;
+    color: lightslategray;
 }
+
 #Description{
     display: none;
     padding-bottom: 5px;
@@ -81,14 +89,15 @@ button{
     width: 100%;
     alignment: center;
     border: none;
+    font-size: larger;
 }
 #allTableth{
-    border: none;
-    font-size: 20px;
+    border: solid;
+    font-size: 40px;
     height: 25px;
 }
 #allTabletd{
-    border: none;
+    border: 2px solid black;
 }
 
 input[type=text], input[type=date], input[type=number], select{
@@ -96,10 +105,11 @@ input[type=text], input[type=date], input[type=number], select{
     padding: 12px;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: larger;
 }
 input[type=submit]{
-    background-color: dimgray;
-    color: white;
+    background-color: #697887;
+    color: brown;
     padding: 12px 20px;
     margin-top: 6px;
     margin-bottom: 6px;
@@ -107,7 +117,9 @@ input[type=submit]{
     border-radius: 4px;
     cursor: pointer;
     float: right;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
 }
 input[type=submit]:HOVER {
     background-color: black;
@@ -116,6 +128,7 @@ input[type=submit]:HOVER {
     margin: auto;
     width: 70%;
     padding: 10px;
+    font-size: larger;
 }
 
 .row:after{
@@ -134,3 +147,4 @@ input[type=submit]:HOVER {
     margin: auto;
     padding-bottom: 10px;
 }
+

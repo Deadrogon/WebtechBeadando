@@ -8,10 +8,10 @@ $(function (){
 
         $.ajax({
             type:'post',
-            url: 'addManufacturer',
+            url: 'addManufacturers',
             data: $('form').serialize(),
             success: function () {
-                if (confirm("You succesfully added a manufacturer. Click ok to see all of them!")) {
+                if (confirm("Great! You succesfully added a manufacturer. Click ok to see all of them!")) {
                     $("#content").load("listmanufacturers.html");
                 }
             },
